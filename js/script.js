@@ -21,11 +21,15 @@ function calcular() {
     if (!raio) {
         document.getElementById('container-resultado').style.minHeight = '0px';
         document.getElementById('container-resultado').style.opacity = '0%';
+        document.getElementById('circulo').style.opacity = '0%';
+        document.getElementById('circulo').style.height = '0px';
         document.getElementById('display-circun').style.marginTop = '-20vh'
         document.getElementById('display-area').style.marginTop = '-5vh'
 
     } else {
         document.getElementById('container-resultado').style.opacity = '100%';
+        document.getElementById('circulo').style.opacity = '100%';
+        document.getElementById('circulo').style.height = '';
         document.getElementById('container-resultado').style.minHeight = '20vh';
         document.getElementById('display-circun').style.marginTop = ''
         document.getElementById('display-area').style.marginTop = ''
