@@ -24,13 +24,13 @@ function calcular() {
         document.getElementById('circulo').style.opacity = '0%';
         document.getElementById('circulo').style.height = '0px';
         document.getElementById('display-circun').style.marginTop = '-20vh'
-        document.getElementById('display-area').style.marginTop = '-5vh'
+        document.getElementById('display-area').style.marginTop = '-20vh'
 
     } else {
         document.getElementById('container-resultado').style.opacity = '100%';
         document.getElementById('circulo').style.opacity = '100%';
         document.getElementById('circulo').style.height = '';
-        document.getElementById('container-resultado').style.minHeight = '20vh';
+        document.getElementById('container-resultado').style.minHeight = '15rem';
         document.getElementById('display-circun').style.marginTop = ''
         document.getElementById('display-area').style.marginTop = ''
 
