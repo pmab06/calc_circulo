@@ -39,7 +39,7 @@ function calcular() {
         const circun = circ.circunferencia();
         const area = circ.area();
 
-        document.getElementById('display-circun').innerHTML = circun;
-        document.getElementById('display-area').innerHTML = area;
+        document.getElementById('rcircun').innerHTML = circun;
+        document.getElementById('rarea').innerHTML = area;
     }
 }
